@@ -21,7 +21,8 @@ const App = () => (
     author={data.author}
     />
     <Ingredients />
-    <Step />
+    <Step
+    instructions={data.instructions} />
     <Footer
     date={(new Date()).getFullYear()} 
     />
