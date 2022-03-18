@@ -7,7 +7,7 @@ import Step from '../Step';
 import Ingredients from '../Ingredients';
 import Footer from '../Footer';
 
-import './styles.css';
+import './styles.scss';
 
 // == Composant
 const App = () => (
