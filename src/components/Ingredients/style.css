@@ -1,0 +1,20 @@
+.ingredients {
+  margin-bottom: 2rem;
+}
+
+.ingredient {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 2em;
+}
+
+.ingredient:last-child {
+  border-bottom: 0;
+}
+
+.ingredient-quantity {
+  background-color: #f18042;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  display: inline-block;
+}

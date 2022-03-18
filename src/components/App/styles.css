@@ -1,13 +1,5 @@
 .app {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
+  width: 600px;
+  margin: auto;
 }
 
-.app img {
-  max-width: 150px;
-}
-
-.app h1 {
-  margin: 2rem;
-}

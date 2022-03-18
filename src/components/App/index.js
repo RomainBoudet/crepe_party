@@ -2,17 +2,23 @@
 import React from 'react';
 
 // == Import
-import reactLogo from './react-logo.svg';
-import romLogo from './RB.png';
+import Header from '../Header';
+import Step from '../Step';
+import Ingredients from '../Ingredients';
+import Footer from '../Footer';
+
 import './styles.css';
 
 // == Composant
 const App = () => (
-  <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <img src={romLogo} alt="Romain Boudet logo" />
-    <h1>Ho..., le beau front qu'ont va faire en REACT...</h1>
-  </div>
+  <main className="app">
+
+    <Header />
+    <Ingredients />
+    <Step />
+    <Footer />
+
+  </main>
 );
 
 // == Export

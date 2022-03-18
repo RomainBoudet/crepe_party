@@ -1,4 +1,4 @@
-{
+/*  {
     "extends": "airbnb",
     "parser": "babel-eslint",
     "env": {
@@ -45,4 +45,5 @@
       }
     }
   }
-  
+   
+ */
