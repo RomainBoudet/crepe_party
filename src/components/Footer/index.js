@@ -1,11 +1,10 @@
 import React from 'react';
 import './style.scss';
 
-const Footer = () => {
-return (
+const Footer = ({date}) => (
 <footer className="footer">
-© Romain Boudet - 2022
+© Romain Boudet - {date}
 </footer>
-);};
+);
 
 export default Footer;

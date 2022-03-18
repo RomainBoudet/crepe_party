@@ -5,7 +5,7 @@
 
   &-image {
     display: block;
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto;
     border-radius: 0 0 1rem 1rem;
   }
@@ -13,7 +13,7 @@
   &-content {
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 100% !important;
     bottom: 2rem;
     padding: 2rem;
     text-align: center;
@@ -25,6 +25,7 @@
     font-family: Georgia, serif;
     font-style: italic;
     font-weight: bold;
+    margin: 1rem;
   }
 
   &-infos {

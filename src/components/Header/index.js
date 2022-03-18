@@ -1,15 +1,16 @@
 import React from 'react';
 import './style.scss';
 
-const Header = () => {
-  return (
+// Je peux déstructurer en paramétre direct ! et faire un return automatique !
+const Header = ({title, thumbnail, difficulty, author}) => 
+   (
     <header className="header">
-  <img src="https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="une hoto de crepe" className="header-image" />
+  <img src={thumbnail} className="header-image" />
   <div className="header-content">
-    <h1 className="header-title">Mon beau titre</h1>
-    <p className="header-infos"> mon auteur - difficulté</p>
+    <h1 className="header-title">{title}</h1>
+    <p className="header-infos"> {author} - {difficulty}</p>
   </div>
 </header>
-  )};
+  );
 
 export default Header;
