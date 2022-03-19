@@ -9,7 +9,7 @@ const Footer = ({ date }) => (
 );
 
 Footer.propTypes = {
-  date: PropTypes.string.isRequired,
+  date: PropTypes.number.isRequired,
 };
 
 export default Footer;

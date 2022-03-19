@@ -21,7 +21,9 @@ const App = () => (
       difficulty={data.difficulty}
       author={data.author}
     />
-    <Ingredients />
+    <Ingredients
+      ingredients={data.ingredients}
+    />
     <Step
       instructions={data.instructions}
     />

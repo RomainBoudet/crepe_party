@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import PropTypes from 'prop-types';
-/* Mais attaention, pour que react soit capable d'identifier si il existe un changement,
+/* Mais attention, pour que react soit capable d'identifier si il existe un changement,
 dans chacun des li, on doit doit donner une prop key, avec un valeur unique */
 
 const Step = ({ instructions }) => (
