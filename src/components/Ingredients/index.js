@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.scss';
 import PropTypes from 'prop-types';
+import Ingredient from './Ingredient';
 
 // ingredients est un tableau d'objet, contenant chacun 4 clés.
 
@@ -8,9 +9,12 @@ const Ingredients = ({ ingredients }) => (
   <div className="ingredients">
     <ul>
       {ingredients.map((item) => (
-        <li className="ingredient" key={item.id}>
-          <span className="ingredient-quantity">{item.quantity}{item.unit}</span> {item.name}
-        </li>
+        <Ingredient
+          key={item.id}
+          name={item.name}
+          quantity={item.quantity}
+          unit={item.unit}
+        />
       ))}
     </ul>
   </div>
