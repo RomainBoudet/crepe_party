@@ -11,9 +11,7 @@ const Ingredients = ({ ingredients }) => (
       {ingredients.map((item) => (
         <Ingredient
           key={item.id}
-          name={item.name}
-          quantity={item.quantity}
-          unit={item.unit}
+          {...item}
         />
       ))}
     </ul>
